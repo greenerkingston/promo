@@ -1,0 +1,168 @@
+/* 
+* 
+* Customize Styles
+*
+*/ 
+
+body, html {
+  min-height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  height: 100%;
+}
+
+.splash {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url('../images/lake_landscape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 300px;
+  min-height: 950px;
+  position: relative;
+}
+
+.splash .quote-block {
+  background: #78b71c;
+  width: 40%;
+  border-radius: 2px;
+  min-width: 600px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.splash .quote-block p {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.splash .quote-block p span.attribution {
+  display: block;
+  color: #FFF;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.splash .quote-block p span.attribution:before {
+  content: "–"
+}
+
+.splash a.splash-cta {
+  display: block;
+  margin: 10% auto;
+  background: #000;
+  width: 20%;
+  min-width: 240px;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #78b71c;
+  text-decoration: none;
+}
+
+.splash a.splash-cta span.small{
+  display: block;
+  color: #FFF;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+} 
+
+.splash a.splash-cta:hover {
+  box-shadow: 0px 2px 10px rgba(255,255,255,0.3);
+}
+
+.position-bottom {
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+  font-size: 50px;
+  color: #000;
+  left: 0;
+  right: 0;
+}
+
+.position-bottom a {
+  color: #000;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+section#more_info {
+  margin-top: 25px;
+}
+
+.media-object {
+  max-width: 325px;
+  min-width: 150px;
+}
+.media-object img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.media-body {
+  min-width: 325px;
+}
+
+.section_info {
+  margin-top: 55px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section_info span.caption {
+  color: #000;
+  font-size: 12px;
+}
+
+.section_info p {
+  font-size: 20px;
+}
+
+.section_info div img {
+  min-width: 600px;
+  margin: 0px auto;
+}
+
+.list_holder {
+  margin-top: 25px;
+}
+
+.list_holder div h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000;
+}
+
+.list-group button {
+  font-weight: 700;
+}
+
+.typical {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 500;
+  color: #000;
+}
+
+.typical strong {
+  color: #78b71c;
+}

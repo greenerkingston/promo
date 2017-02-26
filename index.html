@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Building Awareness of Solar Panels</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+    <div class="splash">
+      <div class="quote-block">
+        <p>The best way to predict the future is to create it. <span class="attribution">Martha Prestley</span></p>
+      </div>
+
+      <a href="#more_info" class="splash-cta"><span class="small">Do your Part</span> To Preserve Our World</a>
+      <div class="position-bottom">
+        <a href="#more_info"><i class="glyphicon glyphicon-chevron-down"></i></a>
+      </div>
+    </div>
+
+
+    <section id="more_info" class="container">
+      <h2>Create a Greener Kingston and Save Money</h2>
+      <div class="media">
+        <div class="media-left media-middle">
+          <img src="images/trees.jpg" alt="Pretty Trees" class="img-rounded media-object">
+        </div>
+        <div class="media-body media-middle">
+          <h4 class="media-heading">Solar Initiatives</h4>
+          <p>
+            The Ontario Government has recently focused on the development of renewable resources. As a business owner, you can benefit hugely from their initiatives. The MicroFIT and FIT (Feed-In-Tariff) programs target individual homes and businesses to be fitted with solar panels at greatly reduced costs as well as huge savings on the cost of utilities and energy usage. <strong>Put money in your pockets while saving the planet!</strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="media-body media-middle">
+          <h4 class="media-heading">Utilize FIT and MicroFIT</h4>
+          <p>
+            On average Ontario electricity consumers pay $0.19 to $0.20 per kWh for electricity (total bill amount/kWh used). Most houses in the University District fall in the 6kWh or smaller range, with only a few up to 10kWh (City of Kingston). As seen from the subsidies consumers receive every month, the benefits are huge and can actually serve as a source of income. 
+          </p>
+          <p>
+            The province will also provide loans and subsidies for the installation of this technology, covering most of the costs for the solar units as well as the manual installation. The Province will also lock you into a low monthly rate on utilities used for a 25-year period. In times where energy prices seem to increase by the minute, this is a bargain!
+          </p>
+        </div>
+        <div class="media-right media-middle">
+          <img src="images/solar_panel.jpg" alt="Solar Panel" class="img-rounded media-object">
+        </div>
+      </div>
+
+      <div class="section_info">
+        <div class="row">
+
+          <div class="col-md-12">
+            <p>
+              <strong>
+                Solar panels have huge potential returns on investment as well as subsidies available.
+              </strong>
+            </p>
+            <div><img src="images/chart.png" alt="Solar Savings"></div>
+            <span class="caption">Chart taken from <a href="http://rimstar.org/renewnrg/ontario_microfit_feed_in_tariff.htm">http://rimstar.org/renewnrg/ontario_microfit_feed_in_tariff.htm</a></span>
+          </div>
+        </div>
+
+        <div class="row list_holder">
+          <div class="col-md-8 col-md-offset-2">
+            <h4>Benefits</h4>
+            <div class="list-group">
+              <button type="button" class="list-group-item">Enviornmental Responsibility</button>
+              <button type="button" class="list-group-item">Lower Energy Costs</button>
+              <button type="button" class="list-group-item">Smaller Ecological Footprint</button>
+              <button type="button" class="list-group-item">Tenet Satisfaction</button>
+            </div>
+          </div>
+        </div>
+
+
+        <p class="typical">
+          <strong>Take your first steps today</strong> and learn about how you can do your part to save our world. For more information, check out the following resources!
+        </p>
+      </div>
+
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+  </body>
+</html>
