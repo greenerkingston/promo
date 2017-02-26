@@ -166,3 +166,21 @@ section#more_info {
 .typical strong {
   color: #78b71c;
 }
+
+p.small {
+  font-size: 14px;
+}
+
+p.writing {
+  color: #000;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 20px;
+  margin: 80px;
+  font-weight: 500;
+  letter-spacing: 0.1ch;
+  background: #FEFEFE;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 20px;
+}
