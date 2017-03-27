@@ -233,3 +233,9 @@ iframe {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.container.references p {
+  color: #000; 
+  font-size: 16px;
+  line-height: 1.7;
+}
