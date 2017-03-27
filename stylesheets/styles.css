@@ -201,3 +201,35 @@ p.caption {
 iframe {
     overflow: hidden;
 }
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: #222;
+  z-index: 999;
+}
+
+.fixed-footer p {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.fixed-footer p a {
+  color: #FEFEFE;
+}
+
+.fixed-footer p a.active {
+  text-decoration: underline;
+}
+
+.main-source {
+  border-bottom: 1px solid #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
